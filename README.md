@@ -57,26 +57,22 @@ The Comparison of the three algorithms is done in terms of their execution time.
 
 ## 5. Usage
 
-Step 1: Input the Sudoku Puzzle
+**Step 1: Input the Sudoku Puzzle**
 
 Begin by inputting the 9x9 matrix representing the Sudoku puzzle in the file 'sudoku.txt'. Use 0 to indicate the empty positions that need to be solved.
 
-Step 2: Run the program
+**Step 2: Run the program**
 
 Run the desired program using a C++ compiler of your choice.
 
-Step 3: Display of the Initial Puzzle
+**Step 3: Display of the Initial Puzzle**
 
 The initial Sudoku puzzle is displayed to ensure that the input has been correctly read from the file. It will help the user verify that the provided digits match the intended puzzle.
 
-Step 4: Execution of the Sudoku Solver
+**Step 4: Execution of the Sudoku Solver**
 
 The Sudoku Solver code is executed to find a solution to the puzzle. The solver will analyze the initial configuration and attempt to fill in the missing digits following the Sudoku rules.
 
-Step 5: Display the Solved Puzzle
+**Step 5: Display the Solved Puzzle**
 
 If the Sudoku Solver finds a valid solution, the program will present the user with the option to write the output to a designated output file. The user can type 'y' or 'Y' to agree or any other key to disagree. If the Sudoku Solver fails to find a solution, there might be conflicting or unsolvable conditions in the puzzle. You may need to re-evaluate the initial digits or check for errors in the input.
-
-## 6. CONCLUSION:
-
-The project demonstrates the effectiveness and efficiency of the three different Sudoku-solving algorithms. It shows that backtracking with bitwise operations and cross hatching techniques can significantly reduce execution time and backtracking steps compared to the basic simple backtracking method. The comparison helps us identify the most suitable algorithm for solving Sudoku puzzles efficiently.
