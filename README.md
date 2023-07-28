@@ -54,6 +54,8 @@ The upper bound of Time Complexity of each algorithm used is O(9^(n*n)). But the
 ## 4. COMPARISON
 
 The Comparison of the three algorithms is done in terms of their execution time.
+![sudokuSolverLineGraph](https://github.com/yatin-23k/Sudoku-Solver/assets/137977262/215edbca-3209-4fc7-80b1-e5c217088d2f)
+![sudokuSolverBarGraph](https://github.com/yatin-23k/Sudoku-Solver/assets/137977262/704143d7-3fba-45f3-ab92-a009acbbeb89)
 
 ## 5. Usage
 
