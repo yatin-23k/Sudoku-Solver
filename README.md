@@ -53,9 +53,17 @@ The upper bound of Time Complexity of each algorithm used is O(9^(n*n)). But the
 
 ## 4. COMPARISON
 
-The Comparison of the three algorithms is done in terms of their execution time.
+The Comparison of the three algorithms is done in terms of their execution time. The line Graph and bar Graph of the three algorithms is given below. The horizontal axis represents increasing difficulty and the vertical axis represents execution time in milliseconds. The dataset consists of five difficulty levels of Sudoku puzzles and the time taken by three different algorithms (Backtracking, Bitwise, and Cross Hatching) to solve these puzzles. The time is measured in milliseconds.
+
+The Line Graph:
 ![sudokuSolverLineGraph](https://github.com/yatin-23k/Sudoku-Solver/assets/137977262/215edbca-3209-4fc7-80b1-e5c217088d2f)
+
+The Bar Graph:
 ![sudokuSolverBarGraph](https://github.com/yatin-23k/Sudoku-Solver/assets/137977262/704143d7-3fba-45f3-ab92-a009acbbeb89)
+
+**Observation**
+
+Based on the observations taken from the above graphs, the time taken by all three algorithms generally increases with the difficulty level, as expected. The "Simple Backtracking" algorithm takes the most time across all difficulty levels, followed by the "Bitwise" algorithm. The "Cross Hatching" algorithm is the fastest among the three. While the "Bitwise" algorithm is consistent in reducing the execution time upto 40% - 60% when compared to the "Simple Backtracking" algorithm, the "Cross Hatching" algorithm is the fastest among all three in providing results.
 
 ## 5. Usage
 
